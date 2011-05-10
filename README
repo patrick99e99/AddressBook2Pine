@@ -3,7 +3,7 @@ Addressbook2pine is a utility that allows you to sync your OS X address book wit
 The resulting pine .addressbook file will contain the following values for each field:
 
 ---------------------------------------------------------------
-| Pine:                                                       |
+| Pine:     | OS X Address Book                               |
 ---------------------------------------------------------------
 | Nickname  | Company, Group, Phone, Birthday, Nickname,      |
 |           | First Name, Last Name, First & Last name,       |
