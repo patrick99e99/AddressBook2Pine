@@ -1,0 +1,32 @@
+Addressbook2pine is a utility that allows you to sync your OS X address book with pine's addressbook. Simply launch addressbook2pine and it will process all of your contacts in your address book and create a tab delimited file readable by pine.
+
+The resulting pine .addressbook file will contain the following values for each field:
+
+---------------------------------------------------------------
+| Pine:                                                       |
+---------------------------------------------------------------
+| Nickname  | Company, Group, Phone, Birthday, Nickname,      |
+|           | First Name, Last Name, First & Last name,       |
+|           | or blank + optional unique id and optional      |
+|           | email id.                                       |
+---------------------------------------------------------------
+| Fullname  | Full name (First, Middle, Last, and Suffix)     |
+|           | + optional email id.                            |
+---------------------------------------------------------------
+| Fcc       | Global fcc path + Contact's Group, Email, or    |
+|           | Full Name.                                      |
+---------------------------------------------------------------
+| Comment   | Notes, Company, Group, Url, Phone, or Birthday. |
+---------------------------------------------------------------
+| Addresses | Email(s) (with optional distribution lists)     |
+---------------------------------------------------------------
+
+Addressbook2pine can also take all contacts in a pine .addressbook file and import them into OS X Address Book. Each successfully converted contact is then automatically added to a group within OS X Address Book labeled "addressbook2pine" for easy tracking purposes.
+
+Upon detection, Address2pine will extract from each contact of Address Book: name field (first, middle, last, and suffix), email(s), company/organization, and notes. Regardless of whether the card is checked as "company" or not, Addressbook2pine will set pine's nickname field to the card's company/organization name.
+
+Any contacts without an email address are skipped by the application.
+
+Upon completion, the disclosure buttons can be clicked for a listing of successful conversions as well as the contacts that were not converted.
+
+The end result is, a perfectly synced .addressbook file with all your contacts automatically imported!
